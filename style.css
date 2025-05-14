@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: orange;
+}
+
+header,footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#hoverText{
+    display: none;
+    padding: 10px;
+    background-color: brown; 
+}
+
+.slides img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.tab-content{
+    margin-top: 10px;
+}
+
+input{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+small{
+    color: red;
+    font-size: 12px;
+}
